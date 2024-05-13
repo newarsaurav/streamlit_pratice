@@ -24,4 +24,4 @@ if img_file:
     # st.image('result.jpg' , caption='This is your predicted')
     c2.image('result.jpg'  , caption='This is your predicted image.' , use_column_width=True)
 
-    
+st.camera_input('camera', key=None, help=None, on_change=None, args=None, kwargs=None, label_visibility="visible")
